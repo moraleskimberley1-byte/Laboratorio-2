@@ -1,4 +1,4 @@
-// ========= top_p3.sv (solo TOP, listo para pegar) =========
+// ========= top_p3.sv =========
 module top_p3 (
     input  logic        CLK100MHZ,
     input  logic [15:0] SW,        // SW[15]=modo (1=LFSR, 0=Manual) + datos
